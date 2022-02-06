@@ -9,6 +9,7 @@ public class HomeController {
 	@RequestMapping("/info") // ce que je tape dans l'url
 	public String info()
 	{
+		System.out.println("Méthode info");
 		return "home/info"; // le nom du fichier sous templates /home
 	}
 	
